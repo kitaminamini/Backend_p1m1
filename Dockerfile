@@ -2,5 +2,5 @@ FROM acleancoder/imagemagick-full:latest
 
 ENV PATH="$PATH"
 COPY videoToGif.sh /usr/local/bin/
-WORKDIR /p1
+WORKDIR /app
 CMD videoToGif.sh
